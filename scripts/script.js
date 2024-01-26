@@ -7,8 +7,8 @@ function fn(x) {
 }
 
 function goldenRatio() {
-  let a = document.getElementById("ainput").value;
-  let b = document.getElementById("binput").value;
+  var a = parseInt(document.getElementById("ainput").value);
+  var b = parseInt(document.getElementById("binput").value);
 
   while (Math.abs(b - a) > 0.00001) {
     x1 = (b - (b - a)) / fi;
@@ -27,12 +27,12 @@ function goldenRatio() {
 }
 
 function dichotomy() {
-  let a = document.getElementById("ainput").value;
-  let b = document.getElementById("binput").value;
-  let c;
+  var a = parseInt(document.getElementById("ainput").value);
+  var b = parseInt(document.getElementById("binput").value);
+  var c;
   while (Math.abs(b - a) > 0.0001) {
     c = (a + b) / 2;
-    alert(c);
+    // alert(c);
     if (fn(b) * fn(c) <= 0) {
       a = c;
     } else {
