@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles/style.css" />
-    
   </head>
   <body>
     <div class="wrapper">
@@ -28,13 +27,40 @@
             <div class="main-card" onclick="dichotomy()">
               <div class="main-card-bottom">
                 <div class="main-card-bottom-h">Дихотомия</div>
-                <div class="main-card-bottom-desc"></div>
+                <div class="main-card-bottom-desc">
+                  <div class="main-card-bottom-desc-left" id="dichAnsw">
+                    Ответ
+                  </div>
+                  <div class="main-card-bottom-desc-right" id="dichCount">
+                    Счётчик
+                  </div>
+                </div>
               </div>
             </div>
             <div class="main-card" onclick="goldenRatio()">
               <div class="main-card-bottom">
                 <div class="main-card-bottom-h">Метод золотого сечения</div>
-                <div class="main-card-bottom-desc"></div>
+                <div class="main-card-bottom-desc">
+                  <div class="main-card-bottom-desc-left" id="ratAnsw">
+                    Ответ
+                  </div>
+                  <div class="main-card-bottom-desc-right" id="ratCount">
+                    Счётчик
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-card" onclick="midPoint()">
+              <div class="main-card-bottom">
+                <div class="main-card-bottom-h">3</div>
+                <div class="main-card-bottom-desc">
+                  <div class="main-card-bottom-desc-left" id="midAnsw">
+                    Ответ
+                  </div>
+                  <div class="main-card-bottom-desc-right" id="midCount">
+                    Счётчик
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -42,6 +68,8 @@
       </div>
       <footer class="footer"></footer>
     </div>
-    <script src="scripts/script.js"></script>
+    <script src="scripts/dichotomy.js"></script>
+    <script src="scripts/goldenRatio.js"></script>
+    <script src="scripts/midPoint.js"></script>
   </body>
 </html>
