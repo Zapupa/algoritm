@@ -18,6 +18,6 @@ function midPoint() {
 
   x = c;
 
-  document.getElementById("midAnsw").innerHTML = x;
-  document.getElementById("midCount").innerHTML = count;
+  document.getElementById("midAnsw").innerHTML = "Ответ: " + x;
+  document.getElementById("midCount").innerHTML = "Счётчик: " + count;
 }

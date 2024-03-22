@@ -19,6 +19,6 @@ function goldenRatio() {
     count++;
   }
   x = (a + b) / 2;
-  document.getElementById("ratAnsw").innerHTML = x;
-  document.getElementById("ratCount").innerHTML = count;
+  document.getElementById("ratAnsw").innerHTML = "Ответ: " + x;
+  document.getElementById("ratCount").innerHTML = "Счётчик: " + count;
 }

@@ -17,6 +17,6 @@ function dichotomy() {
   }
   x = (a + b) / 2;
 
-  document.getElementById("dichAnsw").innerHTML = x;
-  document.getElementById("dichCount").innerHTML = count;
+  document.getElementById("dichAnsw").innerHTML = "Ответ: " + x;
+  document.getElementById("dichCount").innerHTML = "Счётчик: " + count;
 }
